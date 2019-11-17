@@ -1,14 +1,14 @@
 import React from 'react';
 
-import { Wrap } from './styled';
-import QuickCard from 'common/Card/Quick';
-import GridWrap from 'layout/GridWrap';
+import { Wrap, Grid, PlanPreview, SessionPreview, DataPreview } from './styled';
 
 const Home = () => (
 	<Wrap>
-		<GridWrap isRoot>
-			<QuickCard>welcome to the home page</QuickCard>
-		</GridWrap>
+		<Grid isRoot>
+			<PlanPreview />
+			<SessionPreview />
+			<DataPreview />
+		</Grid>
 	</Wrap>
 );
 
