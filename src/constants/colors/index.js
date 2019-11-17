@@ -1,3 +1,7 @@
 export const COLORS = {
-	TextDark: '#000000',
+	TEXT_DARK: '#000000',
+	BLUE_DARK: '#025EB4',
+	BLUE_MED: '#5C80FF',
+	BLUE_LIGHT: '#8A96FF',
+	SPOT_YELLOW: '#FFF066',
 };
