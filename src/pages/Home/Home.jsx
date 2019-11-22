@@ -11,8 +11,8 @@ import {
   ProgressPreview,
 } from './styled';
 
-const Home = () => (
-  <Wrap>
+const Home = ({ className }) => (
+  <Wrap className={className}>
     <Grid isRoot>
       <PlanLink to="/plan">
         <PlanPreview />

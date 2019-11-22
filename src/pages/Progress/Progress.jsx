@@ -2,8 +2,8 @@ import React from 'react';
 
 import { Wrap, Grid } from './styled';
 
-const Progress = () => (
-  <Wrap>
+const Progress = ({ className }) => (
+  <Wrap className={className}>
     <Grid isRoot></Grid>
   </Wrap>
 );
