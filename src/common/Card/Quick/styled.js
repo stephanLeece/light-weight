@@ -1,12 +1,13 @@
 import styled from 'styled-components';
+import { COLORS } from 'constants/colors';
 
 const Wrap = styled.div`
 	display: flex;
-	background: #ffffff;
+	background: ${COLORS.ACCENT_DARK_BLUE};
 	border-radius: 16px;
 	min-height: 100px;
 	&:hover {
-		border: 1px solid black;
+		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	}
 `;
 
