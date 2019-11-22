@@ -10,7 +10,6 @@ const Wrap = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: ${COLORS.SPOT_YELLOW};
 	border-radius: 100px 100px 0 0;
 	height: 50px;
 	width: 100px;

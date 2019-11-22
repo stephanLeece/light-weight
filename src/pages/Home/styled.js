@@ -4,7 +4,6 @@ import GridWrap from 'layout/GridWrap';
 import { COLORS } from 'constants/colors';
 
 export const Wrap = styled.div`
-	background: ${COLORS.BLUE_LIGHT};
 	height: 100vh;
 	padding: 5vw 0;
 `;
