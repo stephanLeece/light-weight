@@ -6,6 +6,6 @@ import { H2 } from 'common/Typography';
 export const Wrap = styled(QuickCard)``;
 
 export const Title = styled(H2)`
-  color: #ffffff;
+  color: #333333;
   max-width: 50%;
 `;

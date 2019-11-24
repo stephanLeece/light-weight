@@ -7,6 +7,7 @@ const Wrap = styled.div`
   border-radius: 16px;
   padding: 16px;
   min-height: 100px;
+  transition: box-shadow 0.2s linear;
   &:hover {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
