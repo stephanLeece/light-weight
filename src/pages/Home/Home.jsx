@@ -4,27 +4,29 @@ import {
   Wrap,
   Grid,
   PlanLink,
-  PlanPreview,
+  PlanCard,
   SessionLink,
-  SessionPreview,
+  SessionCard,
   ProgressLink,
-  ProgressPreview,
+  ProgressCard,
 } from './styled';
 
-const Home = ({ className }) => (
-  <Wrap className={className}>
-    <Grid isRoot>
-      <PlanLink to="/plan">
-        <PlanPreview />
-      </PlanLink>
-      <SessionLink to="/session">
-        <SessionPreview />
-      </SessionLink>
-      <ProgressLink to="/progress">
-        <ProgressPreview />
-      </ProgressLink>
-    </Grid>
-  </Wrap>
-);
+const Home = ({ className }) => {
+  return (
+    <Wrap className={className}>
+      <Grid isRoot>
+        <PlanLink to="/plan">
+          <PlanCard />
+        </PlanLink>
+        <SessionLink to="/session">
+          <SessionCard />
+        </SessionLink>
+        <ProgressLink to="/progress">
+          <ProgressCard />
+        </ProgressLink>
+      </Grid>
+    </Wrap>
+  );
+};
 
 export default Home;

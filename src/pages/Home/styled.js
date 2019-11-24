@@ -1,8 +1,11 @@
 import styled from 'styled-components';
-import QuickCard from 'common/Card/Quick';
-import GridWrap from 'layout/GridWrap';
-import { COLORS } from 'constants/colors';
 import { Link } from 'react-router-dom';
+
+import GridWrap from 'layout/GridWrap';
+import PlanPreview from './PlanPreview';
+import ProgressPreview from './ProgressPreview';
+import SessionPreview from './SessionPreview';
+import { COLORS } from 'constants/colors';
 
 export const Wrap = styled.div`
   height: 100vh;
@@ -22,24 +25,27 @@ export const Grid = styled(GridWrap)`
 
 export const PlanLink = styled(Link)`
   grid-area: plan;
+  text-decoration: none;
 `;
 
 export const SessionLink = styled(Link)`
   grid-area: session;
+  text-decoration: none;
 `;
 
 export const ProgressLink = styled(Link)`
   grid-area: data;
+  text-decoration: none;
 `;
 
-export const PlanPreview = styled(QuickCard)`
+export const PlanCard = styled(PlanPreview)`
   height: 100%;
 `;
 
-export const SessionPreview = styled(QuickCard)`
+export const SessionCard = styled(SessionPreview)`
   height: 100%;
 `;
 
-export const ProgressPreview = styled(QuickCard)`
+export const ProgressCard = styled(ProgressPreview)`
   height: 100%;
 `;
